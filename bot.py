@@ -2,6 +2,7 @@ import os
 import logging
 import random
 import asyncio
+import filetype
 from telethon import TelegramClient, events
 from telethon.errors import SessionPasswordNeededError
 from telethon.tl.functions.account import GetAuthorizationsRequest
